@@ -27,3 +27,5 @@ pod 'MineVC'
 ## License
 
 MineVC is available under the MIT license. See the LICENSE file for more info.
+我的模块demo
+乐居组件化
