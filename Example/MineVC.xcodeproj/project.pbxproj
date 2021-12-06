@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0C91DA0F92757D7189A031E6 /* Pods_MineVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13E2FA7931EF65FE7B7284E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3C593A4CD361EA445C6F4C5E /* MineVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MineVC.podspec; path = ../MineVC.podspec; sourceTree = "<group>"; };
+		13E2FA7931EF65FE7B7284E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C593A4CD361EA445C6F4C5E /* MineVC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MineVC.podspec; path = ../MineVC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D44CF2D0103C103262A46CE /* Pods_MineVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MineVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MineVC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MineVC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		764600978164466BE8A42F5F /* Pods-MineVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineVC_Tests.release.xcconfig"; path = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC493A801FC235B990B1208 /* Pods-MineVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineVC_Example.debug.xcconfig"; path = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		97B5C8D82B3300A449F677F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		97B5C8D82B3300A449F677F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C60C01F697FE4235F6F3AF0C /* Pods-MineVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineVC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF6D29296755EF223795678 /* Pods-MineVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineVC_Example.release.xcconfig"; path = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				C60C01F697FE4235F6F3AF0C /* Pods-MineVC_Tests.debug.xcconfig */,
 				764600978164466BE8A42F5F /* Pods-MineVC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
