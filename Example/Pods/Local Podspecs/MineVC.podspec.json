@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of MineVC.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/550482560@qq.com/MineVC",
+  "homepage": "https://github.com/a550482560/MineVC",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "550482560@qq.com": "550482580@qq.com"
   },
   "source": {
-    "git": "https://github.com/550482560@qq.com/MineVC.git",
+    "git": "https://github.com/a550482560/MineVC.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MineVC/Classes/**/*"
+  "source_files": "MineVC/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
 }

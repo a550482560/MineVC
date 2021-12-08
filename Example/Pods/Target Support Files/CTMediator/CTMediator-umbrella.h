@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "CTMediator+HandyTools.h"
+#import "CTMediator.h"
 
-FOUNDATION_EXPORT double Pods_MineVC_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MineVC_TestsVersionString[];
+FOUNDATION_EXPORT double CTMediatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char CTMediatorVersionString[];
 

@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## MineVC
 
 Copyright (c) 2021 550482560@qq.com <550482580@qq.com>

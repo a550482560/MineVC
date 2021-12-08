@@ -7,7 +7,7 @@
 //
 
 #import "BSViewController.h"
-
+#import <CTMediator/CTMediator.h>
 @interface BSViewController ()
 
 @end
@@ -17,7 +17,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIButton * button = [[UIButton alloc]initWithFrame:CGRectMake(100, 100, 175, 50)];
+    button.backgroundColor = UIColor.lightGrayColor;
+    [button setTitle:@"我的页面" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(f1) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)f1{
+    UIViewController *viewController = [CT() performActionWithUrl:[NSURL URLWithString:@"bs://Mine/showMineWithParams?id=1234"] completion:nil];
+    [UIApplication sharedApplication].keyWindow.rootViewController = viewController;
+
 }
 
 - (void)didReceiveMemoryWarning

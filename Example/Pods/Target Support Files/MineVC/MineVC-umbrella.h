@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "Mine.h"
+#import "MineViewController.h"
 
 FOUNDATION_EXPORT double MineVCVersionNumber;
 FOUNDATION_EXPORT const unsigned char MineVCVersionString[];

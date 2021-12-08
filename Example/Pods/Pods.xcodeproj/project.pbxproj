@@ -7,475 +7,360 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		14440BA924F41EDC5BCAA72F32F496F3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B539AEB81817C39A34B068D7DF0931 /* ReplaceMe.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		1BD585D971D9239F6243ABA3AC4A0235 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		25A10E29A640FBB2D15DD7B6C3927609 /* Pods-MineVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 351CE22DBDA148ECE867F5E3BF00E297 /* Pods-MineVC_Example-dummy.m */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		371A5F3DE4A61CC075E2D117873331A0 /* Pods-MineVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DEA03867BA553252D8B1820A7643F /* Pods-MineVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CAA1CFD894B6A355D58C2278970A97D /* Pods-MineVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EFEE21AF9F4237071834AABAEE765E /* Pods-MineVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5D2B5D0D026BC8BED4309A1B931564E3 /* MineVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6818854E6BF5C32E94F5F7EDE22029 /* MineVC-dummy.m */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		714291D4B1CEF90E9598D6A74C553B66 /* MineVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C06566E35E0343D27C3277E99FCBEF4 /* MineVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		A952BD7BD17F8AC7FDB0B403168BC15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		EBF0A70E5971EFCD8DE85CA122749F8F /* Pods-MineVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5906954633923EF42236FE5B2B7BA917 /* Pods-MineVC_Tests-dummy.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FACB1CEF7BB71135F0717BA8F04782FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		219AB560F6947956E74F0E0D308EF0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		42BE4417ABDCD43233C41CF267134F18 /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5194984708E6EC8DE47827E9BF425856 /* MineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4D8A65AC6D26160387F2A327CB1433 /* MineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5419594164062FBA055A365008AAC8C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 119B0C7E3B0690C05DEC7DF9F4858302 /* ReplaceMe.m */; };
+		57F913906FE82D421D710579974826C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		64A2A80DF365FE331866352FA1C981BF /* MineVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84683BC5407632CDF6E7AA6F71954F /* MineVC-dummy.m */; };
+		6B85ACC9D9B9C7B6E302F56FDC1F089D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */; };
+		8E68A1189792DFF341BC5464A7021510 /* MineVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D90C801D466C95BA0950BDE5529FB4 /* MineVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC1C23A469E9C7E5365B8EE107ABF0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */; };
+		A46BB5E3800CB04AFEC76B2A92950DF9 /* Pods-MineVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13477C62BF9E8ECD97EC3A7FA17E2FB5 /* Pods-MineVC_Example-dummy.m */; };
+		AFA039B344B8A73F0DDCE0F77738525D /* Pods-MineVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC81102AE67ED77886EAC701C043CC3 /* Pods-MineVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */; };
+		B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC23F745B000959AB79D9D7C99B0840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */; };
+		D96E0CE327607FB900CC21E3 /* Target_Mine.h in Headers */ = {isa = PBXBuildFile; fileRef = D96E0CE127607FB800CC21E3 /* Target_Mine.h */; };
+		D96E0CE427607FB900CC21E3 /* Target_Mine.m in Sources */ = {isa = PBXBuildFile; fileRef = D96E0CE227607FB800CC21E3 /* Target_Mine.m */; };
+		EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D99118D26AB9C90269888B6E2D30F1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED2DB69F66BDF47C6EF5FFCF30D2811 /* MineViewController.m */; };
+		FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		28A39009A806852D2281A193E741755A /* PBXContainerItemProxy */ = {
+		216E9361FFD0D7676AE5C47453409A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		9F05C33AB6A8816E5D8EF6147C88452A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		B54621E867CB1A4D50CDD84DB6FF0D82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 99B2FA5CD852101E0899A7DE488F5B8C;
 			remoteInfo = MineVC;
 		};
-		7367974594583B94CEC1F8C8123D204A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97A42FCD94EF0BCE38A3E0FAC7827121;
-			remoteInfo = "Pods-MineVC_Example";
-		};
-		E5A5C4C249DCC2F466BCD61AE2CFC638 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		095A5710670488249448A677E6951271 /* Pods-MineVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0E7084D11B2DD8F0A446618AE623EA33 /* Pods-MineVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineVC_Example.modulemap"; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2027328614DFCC3F70444426C31F4D85 /* Pods-MineVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		20A3E6D083051160E056C68EFE494D58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		32708259C27AF2A3A12C1B33B32A351B /* MineVC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MineVC-Info.plist"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		351CE22DBDA148ECE867F5E3BF00E297 /* Pods-MineVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineVC_Example-dummy.m"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		3F162411A9B2785AE353D4E2B406A5DF /* MineVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineVC.modulemap; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4A201A58F8215AEDAB3330D05C08FC51 /* Pods-MineVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineVC_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4D8B085A06E0F556AE6E62E35CB81919 /* Pods-MineVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4ECAD65C0D292F14B514FCC8AFD32FC7 /* Pods-MineVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		50EFEE21AF9F4237071834AABAEE765E /* Pods-MineVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineVC_Example-umbrella.h"; sourceTree = "<group>"; };
-		56393472F70ED20ADBDE002DDD3F5C82 /* MineVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.release.xcconfig; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5906954633923EF42236FE5B2B7BA917 /* Pods-MineVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineVC_Tests-dummy.m"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		84BAF56716D4C5D4AE1C33EF631D02DE /* Pods-MineVC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Example-Info.plist"; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9262D45911F96D2068DCB8539C9F6EDC /* Pods_MineVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineVC_Example.framework; path = "Pods-MineVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9C06566E35E0343D27C3277E99FCBEF4 /* MineVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineVC-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6188A84C3017D8AB98BC358C86ACA55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B90DEA03867BA553252D8B1820A7643F /* Pods-MineVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineVC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C1CC38F73DF56942EEE56264234D8DBE /* Pods-MineVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C3DBE80931E2DA7AAD4AE41BF046C532 /* Pods_MineVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MineVC_Tests.framework; path = "Pods-MineVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C93F38089D122E2D79BC5F61ED5F62E7 /* Pods-MineVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MineVC.framework; path = MineVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAFB7260A0C244313D37649FAACC2945 /* MineVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineVC-prefix.pch"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D8427650029AF0C30CBF0E18657F4934 /* Pods-MineVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		D98278A61F95FA86A0CADECC68646C17 /* MineVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MineVC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E3B539AEB81817C39A34B068D7DF0931 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MineVC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		ECE77A424273B71CC78F4401FE4F2043 /* Pods-MineVC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Tests-Info.plist"; sourceTree = "<group>"; };
-		F3C349C457643728F013F28C45E1091F /* MineVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.debug.xcconfig; sourceTree = "<group>"; };
-		F701C4EF8CA9E5335E64AD122138F242 /* Pods-MineVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7C6E06681EC37E00101E02EE086FA7F /* Pods-MineVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F935C7B6331DFF37F6B285C928576331 /* Pods-MineVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineVC_Tests.modulemap"; sourceTree = "<group>"; };
-		FB6818854E6BF5C32E94F5F7EDE22029 /* MineVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineVC-dummy.m"; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		0AC81102AE67ED77886EAC701C043CC3 /* Pods-MineVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineVC_Example-umbrella.h"; sourceTree = "<group>"; };
+		101F524A1A0BFFA9EBD93FD2EDCDB741 /* Pods-MineVC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Example-Info.plist"; sourceTree = "<group>"; };
+		119B0C7E3B0690C05DEC7DF9F4858302 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MineVC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		13477C62BF9E8ECD97EC3A7FA17E2FB5 /* Pods-MineVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MineVC_Example-dummy.m"; sourceTree = "<group>"; };
+		22F814DD3CBCE2B9078573625BEBF97E /* Pods-MineVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D085FED5D8783C26C850B598AA6E9F2 /* Pods-MineVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MineVC_Example.modulemap"; sourceTree = "<group>"; };
+		30CB1502F4BDD94C24F19F975FA971EB /* Pods-MineVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MineVC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		419A25E578B75A40336936D590694E67 /* MineVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineVC-prefix.pch"; sourceTree = "<group>"; };
+		485C58786531DC4113D1DA1E5BB7C13D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		58E0ED3EEEDD4EB97C9A9471AAD7F80A /* MineVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.debug.xcconfig; sourceTree = "<group>"; };
+		59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59A11F1C204F0C83A04DDC16B51815EC /* Pods-MineVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MineVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B4D8A65AC6D26160387F2A327CB1433 /* MineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MineViewController.h; path = MineVC/Classes/MineViewController.h; sourceTree = "<group>"; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		87C661F13D547343641909F33FBA0EBD /* MineVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MineVC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		9262D45911F96D2068DCB8539C9F6EDC /* Pods-MineVC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MineVC_Example"; path = Pods_MineVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		9B9FB925099435869A541E3E73189C26 /* Pods-MineVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED2DB69F66BDF47C6EF5FFCF30D2811 /* MineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MineViewController.m; path = MineVC/Classes/MineViewController.m; sourceTree = "<group>"; };
+		9F04621B4DB369442815EA3D319B884E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9F56927D1A17C21EADB24762280B2ACC /* MineVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineVC.modulemap; sourceTree = "<group>"; };
+		A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		A29588BB3EFBA14F81C8CD219A36478E /* MineVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.release.xcconfig; sourceTree = "<group>"; };
+		AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
+		B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
+		B6D90C801D466C95BA0950BDE5529FB4 /* MineVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineVC-umbrella.h"; sourceTree = "<group>"; };
+		C467F12E840D029E7ED40184B43737A7 /* MineVC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MineVC-Info.plist"; sourceTree = "<group>"; };
+		C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MineVC; path = MineVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E639FD186BBCB0EA5DD16D3CE7040C /* Pods-MineVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MineVC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D96E0CE127607FB800CC21E3 /* Target_Mine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Mine.h; sourceTree = "<group>"; };
+		D96E0CE227607FB800CC21E3 /* Target_Mine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Mine.m; sourceTree = "<group>"; };
+		E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		FA84683BC5407632CDF6E7AA6F71954F /* MineVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineVC-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CD48EA5E057D8C1D921E8E67487FCFB /* Frameworks */ = {
+		09A270882ABEB58D4905A42D3E699D17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD585D971D9239F6243ABA3AC4A0235 /* Foundation.framework in Frameworks */,
+				CFC23F745B000959AB79D9D7C99B0840 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB91FAC2E2D7E8B902BFFD7FF95007E9 /* Frameworks */ = {
+		23810BDCAE3B447E13ED286AF007905C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A952BD7BD17F8AC7FDB0B403168BC15A /* Foundation.framework in Frameworks */,
+				219AB560F6947956E74F0E0D308EF0A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+		A5D0234E141C8142CCC44FC251FC1F44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
-				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
-				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
-				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1E7DA9283C5B09540C2E2932D5CECFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FACB1CEF7BB71135F0717BA8F04782FE /* Foundation.framework in Frameworks */,
+				8FC1C23A469E9C7E5365B8EE107ABF0B /* CoreGraphics.framework in Frameworks */,
+				57F913906FE82D421D710579974826C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10A97936A97F111FDFF7C542594EB935 /* Support Files */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3F162411A9B2785AE353D4E2B406A5DF /* MineVC.modulemap */,
-				FB6818854E6BF5C32E94F5F7EDE22029 /* MineVC-dummy.m */,
-				32708259C27AF2A3A12C1B33B32A351B /* MineVC-Info.plist */,
-				CAFB7260A0C244313D37649FAACC2945 /* MineVC-prefix.pch */,
-				9C06566E35E0343D27C3277E99FCBEF4 /* MineVC-umbrella.h */,
-				F3C349C457643728F013F28C45E1091F /* MineVC.debug.xcconfig */,
-				56393472F70ED20ADBDE002DDD3F5C82 /* MineVC.release.xcconfig */,
+				8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MineVC";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		247ECBB71B177220771606A9C03D78F5 /* Development Pods */ = {
+		2936B3C194E7CDB7E77DF492BD554FCB /* Pods-MineVC_Example */ = {
 			isa = PBXGroup;
 			children = (
-				BA37CF927A8C0B10118503C6D3147205 /* MineVC */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		38D45D50A9EE934E7094479297181416 /* Pods-MineVC_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F935C7B6331DFF37F6B285C928576331 /* Pods-MineVC_Tests.modulemap */,
-				095A5710670488249448A677E6951271 /* Pods-MineVC_Tests-acknowledgements.markdown */,
-				4ECAD65C0D292F14B514FCC8AFD32FC7 /* Pods-MineVC_Tests-acknowledgements.plist */,
-				5906954633923EF42236FE5B2B7BA917 /* Pods-MineVC_Tests-dummy.m */,
-				F7C6E06681EC37E00101E02EE086FA7F /* Pods-MineVC_Tests-frameworks.sh */,
-				ECE77A424273B71CC78F4401FE4F2043 /* Pods-MineVC_Tests-Info.plist */,
-				B90DEA03867BA553252D8B1820A7643F /* Pods-MineVC_Tests-umbrella.h */,
-				D8427650029AF0C30CBF0E18657F4934 /* Pods-MineVC_Tests.debug.xcconfig */,
-				C93F38089D122E2D79BC5F61ED5F62E7 /* Pods-MineVC_Tests.release.xcconfig */,
-			);
-			name = "Pods-MineVC_Tests";
-			path = "Target Support Files/Pods-MineVC_Tests";
-			sourceTree = "<group>";
-		};
-		4474DB681B3C641D9241EF4BCDD46D2E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC.framework */,
-				9262D45911F96D2068DCB8539C9F6EDC /* Pods_MineVC_Example.framework */,
-				C3DBE80931E2DA7AAD4AE41BF046C532 /* Pods_MineVC_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		4C322A47DF8DFD6D7EE3BF74433E987C /* Pods-MineVC_Example */ = {
-			isa = PBXGroup;
-			children = (
-				0E7084D11B2DD8F0A446618AE623EA33 /* Pods-MineVC_Example.modulemap */,
-				F701C4EF8CA9E5335E64AD122138F242 /* Pods-MineVC_Example-acknowledgements.markdown */,
-				4D8B085A06E0F556AE6E62E35CB81919 /* Pods-MineVC_Example-acknowledgements.plist */,
-				351CE22DBDA148ECE867F5E3BF00E297 /* Pods-MineVC_Example-dummy.m */,
-				4A201A58F8215AEDAB3330D05C08FC51 /* Pods-MineVC_Example-frameworks.sh */,
-				84BAF56716D4C5D4AE1C33EF631D02DE /* Pods-MineVC_Example-Info.plist */,
-				50EFEE21AF9F4237071834AABAEE765E /* Pods-MineVC_Example-umbrella.h */,
-				C1CC38F73DF56942EEE56264234D8DBE /* Pods-MineVC_Example.debug.xcconfig */,
-				2027328614DFCC3F70444426C31F4D85 /* Pods-MineVC_Example.release.xcconfig */,
+				2D085FED5D8783C26C850B598AA6E9F2 /* Pods-MineVC_Example.modulemap */,
+				59A11F1C204F0C83A04DDC16B51815EC /* Pods-MineVC_Example-acknowledgements.markdown */,
+				9B9FB925099435869A541E3E73189C26 /* Pods-MineVC_Example-acknowledgements.plist */,
+				13477C62BF9E8ECD97EC3A7FA17E2FB5 /* Pods-MineVC_Example-dummy.m */,
+				30CB1502F4BDD94C24F19F975FA971EB /* Pods-MineVC_Example-frameworks.sh */,
+				101F524A1A0BFFA9EBD93FD2EDCDB741 /* Pods-MineVC_Example-Info.plist */,
+				0AC81102AE67ED77886EAC701C043CC3 /* Pods-MineVC_Example-umbrella.h */,
+				22F814DD3CBCE2B9078573625BEBF97E /* Pods-MineVC_Example.debug.xcconfig */,
+				D0E639FD186BBCB0EA5DD16D3CE7040C /* Pods-MineVC_Example.release.xcconfig */,
 			);
 			name = "Pods-MineVC_Example";
 			path = "Target Support Files/Pods-MineVC_Example";
 			sourceTree = "<group>";
 		};
-		6645A2C2646AC69A340A14E26BD5F861 /* Pod */ = {
+		2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */ = {
 			isa = PBXGroup;
 			children = (
-				A6188A84C3017D8AB98BC358C86ACA55 /* LICENSE */,
-				D98278A61F95FA86A0CADECC68646C17 /* MineVC.podspec */,
-				20A3E6D083051160E056C68EFE494D58 /* README.md */,
+				56475E748DED4AF0EB9AA2F483A19830 /* CTMediator.h */,
+				78C29CDE4D937F198C9989FC838DA321 /* CTMediator.m */,
+				4C0648475DECEEEAB1D6B831B4697928 /* CTMediator+HandyTools.h */,
+				4F2E74791FBAEF93692D80AA8C0074CB /* CTMediator+HandyTools.m */,
+				BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		36FCFD6E289DD8CBCCF198092E4B291D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EBE080A06F227AC473DEA346D1FF7CC /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59EF2622DC5C9897689359D0AB0533F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				485C58786531DC4113D1DA1E5BB7C13D /* LICENSE */,
+				87C661F13D547343641909F33FBA0EBD /* MineVC.podspec */,
+				9F04621B4DB369442815EA3D319B884E /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7C83E5603E212061AC51E51DEC776200 /* Targets Support Files */ = {
+		8001EF1E8C372FD31EFFB43C3FBF6F94 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4C322A47DF8DFD6D7EE3BF74433E987C /* Pods-MineVC_Example */,
-				38D45D50A9EE934E7094479297181416 /* Pods-MineVC_Tests */,
+				4B68540C55CA43970CDF0C24725F02FA /* CoreGraphics.framework */,
+				59040624F92B050B2ECF8FA644B47678 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		94BFDEAADCB2411F3550F85BBF87B569 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2936B3C194E7CDB7E77DF492BD554FCB /* Pods-MineVC_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+		AE78CEBF56731F80995FBCAC3D95C100 /* MineVC */ = {
 			isa = PBXGroup;
 			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		BA37CF927A8C0B10118503C6D3147205 /* MineVC */ = {
-			isa = PBXGroup;
-			children = (
-				E3B539AEB81817C39A34B068D7DF0931 /* ReplaceMe.m */,
-				6645A2C2646AC69A340A14E26BD5F861 /* Pod */,
-				10A97936A97F111FDFF7C542594EB935 /* Support Files */,
+				5B4D8A65AC6D26160387F2A327CB1433 /* MineViewController.h */,
+				9ED2DB69F66BDF47C6EF5FFCF30D2811 /* MineViewController.m */,
+				D96E0CE127607FB800CC21E3 /* Target_Mine.h */,
+				D96E0CE227607FB800CC21E3 /* Target_Mine.m */,
+				119B0C7E3B0690C05DEC7DF9F4858302 /* ReplaceMe.m */,
+				59EF2622DC5C9897689359D0AB0533F1 /* Pod */,
+				D7E4CEB37D7B67311FEE4E677000408B /* Support Files */,
 			);
 			name = MineVC;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		BBE34334C3A810566C293A2E5FC95DE1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				3DCA72FAA6DF50B01846A17CDDCB44AC /* CTMediator.modulemap */,
+				E56D036CF1CFF4F33250BE17BFBFAD02 /* CTMediator-dummy.m */,
+				A1D8D3AF5F05FFE21CDD5700F3A7726F /* CTMediator-Info.plist */,
+				9A444AD508D9C46401262B02A5315A6E /* CTMediator-prefix.pch */,
+				8B512F4907981BB55E9859A8D676E87C /* CTMediator-umbrella.h */,
+				AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */,
+				B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				247ECBB71B177220771606A9C03D78F5 /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				4474DB681B3C641D9241EF4BCDD46D2E /* Products */,
-				7C83E5603E212061AC51E51DEC776200 /* Targets Support Files */,
+				DF51A9A8414806A6B66177DD18187486 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				36FCFD6E289DD8CBCCF198092E4B291D /* Pods */,
+				F8EF24FC0F9559634C6E6BA35E7BED18 /* Products */,
+				94BFDEAADCB2411F3550F85BBF87B569 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		D7E4CEB37D7B67311FEE4E677000408B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				9F56927D1A17C21EADB24762280B2ACC /* MineVC.modulemap */,
+				FA84683BC5407632CDF6E7AA6F71954F /* MineVC-dummy.m */,
+				C467F12E840D029E7ED40184B43737A7 /* MineVC-Info.plist */,
+				419A25E578B75A40336936D590694E67 /* MineVC-prefix.pch */,
+				B6D90C801D466C95BA0950BDE5529FB4 /* MineVC-umbrella.h */,
+				58E0ED3EEEDD4EB97C9A9471AAD7F80A /* MineVC.debug.xcconfig */,
+				A29588BB3EFBA14F81C8CD219A36478E /* MineVC.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MineVC";
 			sourceTree = "<group>";
 		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+		DF51A9A8414806A6B66177DD18187486 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+				AE78CEBF56731F80995FBCAC3D95C100 /* MineVC */,
 			);
-			name = iOS;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F8EF24FC0F9559634C6E6BA35E7BED18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */,
+				C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC */,
+				9262D45911F96D2068DCB8539C9F6EDC /* Pods-MineVC_Example */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		7EE67D42A1B011473995F6E6663BFF3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				EAEE20117ABE5388BFA2BE6BB04069FA /* CTMediator.h in Headers */,
+				42BE4417ABDCD43233C41CF267134F18 /* CTMediator+HandyTools.h in Headers */,
+				B7FEF377E3AE69AD3731EC0EA95D98CF /* CTMediator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4961B968CA0C0B4BBA2A144BF913979E /* Headers */ = {
+		A98BCAB5AACDB22FFBEC5554685BA086 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				714291D4B1CEF90E9598D6A74C553B66 /* MineVC-umbrella.h in Headers */,
+				8E68A1189792DFF341BC5464A7021510 /* MineVC-umbrella.h in Headers */,
+				D96E0CE327607FB900CC21E3 /* Target_Mine.h in Headers */,
+				5194984708E6EC8DE47827E9BF425856 /* MineViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		969892B0E3A4DC0815B8DD13D2AF915C /* Headers */ = {
+		D58B4F55D203874E5F930E95A9CD08F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CAA1CFD894B6A355D58C2278970A97D /* Pods-MineVC_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1424D13A6FACDEB41B2C0C8B54B56E4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				371A5F3DE4A61CC075E2D117873331A0 /* Pods-MineVC_Tests-umbrella.h in Headers */,
+				AFA039B344B8A73F0DDCE0F77738525D /* Pods-MineVC_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7C2ABD70D57C6F0D70FC6DB554CB8A50 /* Pods-MineVC_Tests */ = {
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A57AF06C0C98B29AF5EB7C6AF62C6EF /* Build configuration list for PBXNativeTarget "Pods-MineVC_Tests" */;
+			buildConfigurationList = 5C33DF6F6234CC5280E19750C765B06A /* Build configuration list for PBXNativeTarget "CTMediator" */;
 			buildPhases = (
-				F1424D13A6FACDEB41B2C0C8B54B56E4 /* Headers */,
-				EE7F6C658B214CD0F91A412E162C1DC5 /* Sources */,
-				0CD48EA5E057D8C1D921E8E67487FCFB /* Frameworks */,
-				9150622012D31AA8847D742A024F5AE8 /* Resources */,
+				7EE67D42A1B011473995F6E6663BFF3A /* Headers */,
+				7D6A3641E1BB9B6870B1A4148AD8DF5C /* Sources */,
+				A5D0234E141C8142CCC44FC251FC1F44 /* Frameworks */,
+				949D0B60552582596D40F99B7ECB2170 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4F090C9CA122E6ACD9A8EA16F5760C02 /* PBXTargetDependency */,
-				C754399F379810BFE756912933C68212 /* PBXTargetDependency */,
 			);
-			name = "Pods-MineVC_Tests";
-			productName = "Pods-MineVC_Tests";
-			productReference = C3DBE80931E2DA7AAD4AE41BF046C532 /* Pods_MineVC_Tests.framework */;
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator */;
 			productType = "com.apple.product-type.framework";
 		};
 		97A42FCD94EF0BCE38A3E0FAC7827121 /* Pods-MineVC_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BE09DAD55DF6CF877C7FA515536DAC0 /* Build configuration list for PBXNativeTarget "Pods-MineVC_Example" */;
+			buildConfigurationList = 9423E748DEBE9AD1AC2B6808D06AFEA9 /* Build configuration list for PBXNativeTarget "Pods-MineVC_Example" */;
 			buildPhases = (
-				969892B0E3A4DC0815B8DD13D2AF915C /* Headers */,
-				0DEC60306078C65BE73860BB24E4A14F /* Sources */,
-				BB91FAC2E2D7E8B902BFFD7FF95007E9 /* Frameworks */,
-				4316446A9A37CF6A6978588D0D3BC50D /* Resources */,
+				D58B4F55D203874E5F930E95A9CD08F3 /* Headers */,
+				7BFEE1B867789AFB66E55C7F813C879B /* Sources */,
+				23810BDCAE3B447E13ED286AF007905C /* Frameworks */,
+				A48B04CD0D1430C934CCF758A58B2E8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				294587AC36D4E1EBEC555429EE90A65E /* PBXTargetDependency */,
+				51B7B3CD9EB203A696553E28ED6D6D0B /* PBXTargetDependency */,
+				9FC5C764C669D571A33B526E9195F1BE /* PBXTargetDependency */,
 			);
 			name = "Pods-MineVC_Example";
-			productName = "Pods-MineVC_Example";
-			productReference = 9262D45911F96D2068DCB8539C9F6EDC /* Pods_MineVC_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
-			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productName = Pods_MineVC_Example;
+			productReference = 9262D45911F96D2068DCB8539C9F6EDC /* Pods-MineVC_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		99B2FA5CD852101E0899A7DE488F5B8C /* MineVC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 946D37D5CD1323FEF3AE10D8A85B095F /* Build configuration list for PBXNativeTarget "MineVC" */;
+			buildConfigurationList = 7490025762977B6426AB3058BA6BD162 /* Build configuration list for PBXNativeTarget "MineVC" */;
 			buildPhases = (
-				4961B968CA0C0B4BBA2A144BF913979E /* Headers */,
-				8FEADF0CC181DF215D87045970063AA3 /* Sources */,
-				F1E7DA9283C5B09540C2E2932D5CECFB /* Frameworks */,
-				107B5E3849A13A42C75F125DB0973BE0 /* Resources */,
+				A98BCAB5AACDB22FFBEC5554685BA086 /* Headers */,
+				B7511FD018F0E3EC5BA1D579D604669F /* Sources */,
+				09A270882ABEB58D4905A42D3E699D17 /* Frameworks */,
+				6FC360FAEF1BF9B39B5BD3671ABB11D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1063986BADE6F17C006B51F1564C2753 /* PBXTargetDependency */,
 			);
 			name = MineVC;
 			productName = MineVC;
-			productReference = C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC.framework */;
+			productReference = C98C92A4B639F7E763C0BDB984AEE6BA /* MineVC */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -484,53 +369,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4474DB681B3C641D9241EF4BCDD46D2E /* Products */;
+			productRefGroup = F8EF24FC0F9559634C6E6BA35E7BED18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
 				99B2FA5CD852101E0899A7DE488F5B8C /* MineVC */,
 				97A42FCD94EF0BCE38A3E0FAC7827121 /* Pods-MineVC_Example */,
-				7C2ABD70D57C6F0D70FC6DB554CB8A50 /* Pods-MineVC_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		107B5E3849A13A42C75F125DB0973BE0 /* Resources */ = {
+		6FC360FAEF1BF9B39B5BD3671ABB11D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4316446A9A37CF6A6978588D0D3BC50D /* Resources */ = {
+		949D0B60552582596D40F99B7ECB2170 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9150622012D31AA8847D742A024F5AE8 /* Resources */ = {
+		A48B04CD0D1430C934CCF758A58B2E8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,76 +417,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DEC60306078C65BE73860BB24E4A14F /* Sources */ = {
+		7BFEE1B867789AFB66E55C7F813C879B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A10E29A640FBB2D15DD7B6C3927609 /* Pods-MineVC_Example-dummy.m in Sources */,
+				A46BB5E3800CB04AFEC76B2A92950DF9 /* Pods-MineVC_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FEADF0CC181DF215D87045970063AA3 /* Sources */ = {
+		7D6A3641E1BB9B6870B1A4148AD8DF5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2B5D0D026BC8BED4309A1B931564E3 /* MineVC-dummy.m in Sources */,
-				14440BA924F41EDC5BCAA72F32F496F3 /* ReplaceMe.m in Sources */,
+				FC48763D071B2B60A02B28A915F5DD9F /* CTMediator.m in Sources */,
+				B3BE8F979961BC77FA06A16BF43A14F6 /* CTMediator+HandyTools.m in Sources */,
+				6B85ACC9D9B9C7B6E302F56FDC1F089D /* CTMediator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		B7511FD018F0E3EC5BA1D579D604669F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE7F6C658B214CD0F91A412E162C1DC5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBF0A70E5971EFCD8DE85CA122749F8F /* Pods-MineVC_Tests-dummy.m in Sources */,
+				64A2A80DF365FE331866352FA1C981BF /* MineVC-dummy.m in Sources */,
+				F7D99118D26AB9C90269888B6E2D30F1 /* MineViewController.m in Sources */,
+				D96E0CE427607FB900CC21E3 /* Target_Mine.m in Sources */,
+				5419594164062FBA055A365008AAC8C9 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		294587AC36D4E1EBEC555429EE90A65E /* PBXTargetDependency */ = {
+		1063986BADE6F17C006B51F1564C2753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 9F05C33AB6A8816E5D8EF6147C88452A /* PBXContainerItemProxy */;
+		};
+		51B7B3CD9EB203A696553E28ED6D6D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 216E9361FFD0D7676AE5C47453409A3D /* PBXContainerItemProxy */;
+		};
+		9FC5C764C669D571A33B526E9195F1BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MineVC;
 			target = 99B2FA5CD852101E0899A7DE488F5B8C /* MineVC */;
-			targetProxy = 28A39009A806852D2281A193E741755A /* PBXContainerItemProxy */;
-		};
-		4F090C9CA122E6ACD9A8EA16F5760C02 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = E5A5C4C249DCC2F466BCD61AE2CFC638 /* PBXContainerItemProxy */;
-		};
-		C754399F379810BFE756912933C68212 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MineVC_Example";
-			target = 97A42FCD94EF0BCE38A3E0FAC7827121 /* Pods-MineVC_Example */;
-			targetProxy = 7367974594583B94CEC1F8C8123D204A /* PBXContainerItemProxy */;
+			targetProxy = B54621E867CB1A4D50CDD84DB6FF0D82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		233C7D8B65D525685D97E6793AF014DB /* Debug */ = {
+		08E884A8FD2782FC4B0F003E2E4C0FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1CC38F73DF56942EEE56264234D8DBE /* Pods-MineVC_Example.debug.xcconfig */;
+			baseConfigurationReference = 58E0ED3EEEDD4EB97C9A9471AAD7F80A /* MineVC.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -618,19 +482,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MineVC/MineVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MineVC/MineVC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/MineVC/MineVC.modulemap";
+				PRODUCT_MODULE_NAME = MineVC;
+				PRODUCT_NAME = MineVC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -703,9 +566,9 @@
 			};
 			name = Debug;
 		};
-		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+		31B34241DE4B01CAE1E853F20B7CAD39 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = B5B33CF84E4A91D636092AFE5A61AADD /* CTMediator.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -715,14 +578,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CB8A3B4CB8EE49AA02D10FB6DBB339F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9A0FCD374925F5087277E68B1A2916 /* CTMediator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -733,9 +627,40 @@
 			};
 			name = Debug;
 		};
-		41CA9E98FC8C030BA3F133432BA16D53 /* Release */ = {
+		5AEC9029693439DE77FEA4B19C43824F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2027328614DFCC3F70444426C31F4D85 /* Pods-MineVC_Example.release.xcconfig */;
+			baseConfigurationReference = A29588BB3EFBA14F81C8CD219A36478E /* MineVC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MineVC/MineVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MineVC/MineVC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MineVC/MineVC.modulemap";
+				PRODUCT_MODULE_NAME = MineVC;
+				PRODUCT_NAME = MineVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		750A31F50B5DFA6C264BA85A7CAEEBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E639FD186BBCB0EA5DD16D3CE7040C /* Pods-MineVC_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -766,9 +691,9 @@
 			};
 			name = Release;
 		};
-		7E27EF7178F904F2915928E095E4B6B5 /* Release */ = {
+		B8D300E06173053532AD86CD8CB25365 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C93F38089D122E2D79BC5F61ED5F62E7 /* Pods-MineVC_Tests.release.xcconfig */;
+			baseConfigurationReference = 22F814DD3CBCE2B9078573625BEBF97E /* Pods-MineVC_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -779,12 +704,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MineVC_Example/Pods-MineVC_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -793,42 +718,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -885,127 +778,15 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		EBFEC4587FA44DA82A3B0F319BE24030 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56393472F70ED20ADBDE002DDD3F5C82 /* MineVC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MineVC/MineVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MineVC/MineVC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MineVC/MineVC.modulemap";
-				PRODUCT_MODULE_NAME = MineVC;
-				PRODUCT_NAME = MineVC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2D0F1A9804623E8AECD2C21E3502D66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3C349C457643728F013F28C45E1091F /* MineVC.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MineVC/MineVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MineVC/MineVC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MineVC/MineVC.modulemap";
-				PRODUCT_MODULE_NAME = MineVC;
-				PRODUCT_NAME = MineVC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC09EDD9E4F0A4ED3191601F595F20AD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8427650029AF0C30CBF0E18657F4934 /* Pods-MineVC_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MineVC_Tests/Pods-MineVC_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BE09DAD55DF6CF877C7FA515536DAC0 /* Build configuration list for PBXNativeTarget "Pods-MineVC_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				233C7D8B65D525685D97E6793AF014DB /* Debug */,
-				41CA9E98FC8C030BA3F133432BA16D53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A57AF06C0C98B29AF5EB7C6AF62C6EF /* Build configuration list for PBXNativeTarget "Pods-MineVC_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC09EDD9E4F0A4ED3191601F595F20AD /* Debug */,
-				7E27EF7178F904F2915928E095E4B6B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1015,20 +796,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		946D37D5CD1323FEF3AE10D8A85B095F /* Build configuration list for PBXNativeTarget "MineVC" */ = {
+		5C33DF6F6234CC5280E19750C765B06A /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2D0F1A9804623E8AECD2C21E3502D66 /* Debug */,
-				EBFEC4587FA44DA82A3B0F319BE24030 /* Release */,
+				3CB8A3B4CB8EE49AA02D10FB6DBB339F /* Debug */,
+				31B34241DE4B01CAE1E853F20B7CAD39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		7490025762977B6426AB3058BA6BD162 /* Build configuration list for PBXNativeTarget "MineVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
-				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+				08E884A8FD2782FC4B0F003E2E4C0FD3 /* Debug */,
+				5AEC9029693439DE77FEA4B19C43824F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9423E748DEBE9AD1AC2B6808D06AFEA9 /* Build configuration list for PBXNativeTarget "Pods-MineVC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D300E06173053532AD86CD8CB25365 /* Debug */,
+				750A31F50B5DFA6C264BA85A7CAEEBD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
