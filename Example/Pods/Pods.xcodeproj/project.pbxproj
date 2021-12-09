@@ -22,6 +22,7 @@
 		B8528E2074D2A3B4744C5597F26875AE /* Target_Mine.h in Headers */ = {isa = PBXBuildFile; fileRef = 60269B5D2A4F22BD3AD0C7C455045686 /* Target_Mine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7A6B9DC3079309543D9275B0A53DAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D3876E4AC260A5615A7BDA43BC7BF5EE /* Pods-MineVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC81102AE67ED77886EAC701C043CC3 /* Pods-MineVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90077692761DEDC002E793B /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BEB5E61ECBFF092995FC4269F70D85 /* MineViewController.m */; };
 		E295704A8510965ED3C99776134BE28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E7095CAD8FDE40B5B272F8AA3F155798 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF75CCC2E8908CB3E6CDD115FEFF109 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
@@ -53,7 +54,7 @@
 /* Begin PBXFileReference section */
 		005E48C3EF6ED9D96295653B76D26759 /* MineVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.release.xcconfig; sourceTree = "<group>"; };
 		00DF92D2C3FC1A0C8CE6F1422EC7C4CD /* BSRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSRouter-umbrella.h"; sourceTree = "<group>"; };
-		059C8ECC6842735AA8CF04E138C9BB20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		059C8ECC6842735AA8CF04E138C9BB20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		07073C04A06D50046AB429AD06D9082C /* BSRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSRouter.modulemap; sourceTree = "<group>"; };
 		0AC81102AE67ED77886EAC701C043CC3 /* Pods-MineVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MineVC_Example-umbrella.h"; sourceTree = "<group>"; };
 		0BD919B8A86BD2FFCBD80AA90389216C /* MineVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MineVC-prefix.pch"; sourceTree = "<group>"; };
@@ -73,12 +74,12 @@
 		622033349655955F2E4B2C44E4B8DFE5 /* MineVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MineVC.modulemap; sourceTree = "<group>"; };
 		6F61D726BB07FB10EE8F13C0C9B7D65E /* BSRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSRouter-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A77EF098425BFEFF55F1E5E62D84D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7A77EF098425BFEFF55F1E5E62D84D16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		809AF306C9A1D045FDAD7256BD2C0523 /* MineVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MineVC.debug.xcconfig; sourceTree = "<group>"; };
 		9262D45911F96D2068DCB8539C9F6EDC /* Pods-MineVC_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MineVC_Example"; path = Pods_MineVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		976FE29DF3677C5DECFA79AF2C485091 /* MineVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MineVC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976FE29DF3677C5DECFA79AF2C485091 /* MineVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MineVC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B9FB925099435869A541E3E73189C26 /* Pods-MineVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MineVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9D08937002D1C827C58B42BCA77580C /* BSRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSRouter-dummy.m"; sourceTree = "<group>"; };
 		B1443F94E229191E16F6C669133077E6 /* MineVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MineVC-dummy.m"; sourceTree = "<group>"; };
 		B50A8B18F58AE4601CEFC8A924EE920A /* BSRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSRouter-prefix.pch"; sourceTree = "<group>"; };
@@ -262,7 +263,6 @@
 				3D69653CC5CAC232003D144CBDBECA9D /* ReplaceMe.m */,
 				3E8962EE2C3D961CFAAE0FE749DBA7B7 /* Support Files */,
 			);
-			name = BSRouter;
 			path = BSRouter;
 			sourceTree = "<group>";
 		};
@@ -425,6 +425,7 @@
 				869CF4EFB78BEA6F8BFCE9A20DBC52DE /* BSRouter.m in Sources */,
 				7F7478FF6A06552BF871525596CA414C /* BSRouter-dummy.m in Sources */,
 				478255264B28886A86E24C6DE7DB1B98 /* ReplaceMe.m in Sources */,
+				D90077692761DEDC002E793B /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,8 +676,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

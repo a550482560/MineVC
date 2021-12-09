@@ -5,10 +5,14 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
+# git tag -a   -m '更新'
+# git push --tag
+
+# pod repo push BSCMSpec MineVC.podspec --verbose --use-libraries --allow-warnings
 
 Pod::Spec.new do |s|
   s.name             = 'MineVC'
-  s.version          = '6.6.7'
+  s.version          = '6.6.8'
   s.summary          = 'A short description of MineVC.'
 
 # This description is used to generate tags and improve search results.
