@@ -1,6 +1,6 @@
 {
   "name": "MineVC",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "summary": "A short description of MineVC.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/a550482560/MineVC",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/a550482560/MineVC.git",
-    "tag": "0.1.0"
+    "tag": "1.2.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MineVC/Classes/**/*",
-  "dependencies": {
-    "CTMediator": [
-
-    ]
-  }
+  "source_files": "MineVC/Classes/**/*"
 }

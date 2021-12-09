@@ -7,7 +7,7 @@
 //
 
 #import "BSViewController.h"
-#import <CTMediator/CTMediator.h>
+#import "BSRouter.h"
 @interface BSViewController ()
 
 @end
@@ -26,7 +26,7 @@
 }
 
 - (void)f1{
-    UIViewController *viewController = [CT() performActionWithUrl:[NSURL URLWithString:@"bs://Mine/showMineWithParams?id=1234"] completion:nil];
+    UIViewController *viewController = [BSR() performActionWithUrl:[NSURL URLWithString:@"bs://Mine/showMineWithParams?id=1234"] completion:nil];
     [UIApplication sharedApplication].keyWindow.rootViewController = viewController;
 
 }
