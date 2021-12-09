@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MineVC'
-  s.version          = '1.2.2'
+  s.version          = '6.6.7'
   s.summary          = 'A short description of MineVC.'
 
 # This description is used to generate tags and improve search results.
