@@ -7,7 +7,7 @@
 //
 
 #import "BSViewController.h"
-#import "BSRouter.h"
+#import <BSRouter/BSRouter.h>
 @interface BSViewController ()
 
 @end

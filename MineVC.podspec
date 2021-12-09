@@ -22,21 +22,29 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/a550482560/MineVC'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '550482560@qq.com' => '550482580@qq.com' }
   s.source           = { :git => 'https://github.com/a550482560/MineVC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.platform        = :ios, '9.0'
+  s.requires_arc    = true
   s.source_files = 'MineVC/Classes/**/*'
-  
+  s.pod_target_xcconfig = {
+    'VALID_ARCHS' => 'x86_64 armv7 arm64'
+  }
+  s.dependency 'BSRouter'
+
   # s.resource_bundles = {
   #   'MineVC' => ['MineVC/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'CTMediator'
 end
+
+
+
+
+

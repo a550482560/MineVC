@@ -236,7 +236,7 @@ void BSRouter_swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelec
 }
 
 
-#pragma mark - 
+#pragma mark -
 
 
 
@@ -315,7 +315,7 @@ void BSRouter_swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelec
                 return nil;
             }
             
-            if(router.currentNavigationController){                
+            if(router.currentNavigationController){
                 UINavigationController * navc;
                 if(router.presentNavcClass &&
                    [router.presentNavcClass isSubclassOfClass:[UINavigationController class]]

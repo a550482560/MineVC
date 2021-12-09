@@ -113,7 +113,7 @@ typedef void(^BSRouterCallBlock)(id _Nullable passResult);
 - (void)addMapperDic:(NSDictionary<NSString *, id> *)mapperDic;
 
 
-//=================== 
+//===================
 
 + (id)bs_pushVCName:(NSString *)vcName;
 + (id)bs_pushVCName:(NSString *)vcName params:(id _Nullable)passParams callBlock:(BSRouterCallBlock _Nullable)callBlock;

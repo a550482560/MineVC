@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.redColor;
+    self.title = @"我的";
+    UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 100)];
+    label.text = @"我的";
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
