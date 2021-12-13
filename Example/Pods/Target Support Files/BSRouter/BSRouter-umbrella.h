@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "BSComponentProtocol.h"
+#import "BSControlRouter.h"
+#import "BSCore.h"
+#import "BSRouteHeader.h"
 #import "BSRouter.h"
 
 FOUNDATION_EXPORT double BSRouterVersionNumber;

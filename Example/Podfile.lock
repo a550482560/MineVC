@@ -1,6 +1,6 @@
 PODS:
-  - BSRouter (6.0.0)
-  - MineVC (1.2.2):
+  - BSRouter (6.6.6)
+  - MineVC (6.6.8):
     - BSRouter
 
 DEPENDENCIES:
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BSRouter: 84b3dfde64107623768d7df6c9132d52313e6802
-  MineVC: 861fbff01a679eb2c04670ae01ff3a55865685e0
+  BSRouter: ef4f75af080ed5ec77b70bdd3355ef0921e4a077
+  MineVC: e9cc41e7e0548c61413086483370025853d1b8e5
 
 PODFILE CHECKSUM: 147d810958d8b8b1bdc32b5ebe153ced4bae5e4b
 

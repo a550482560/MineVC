@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/a550482560/MineVC'
+  s.homepage         = 'https://m-git.leju.com/subgroup/minevc'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '550482560@qq.com' => '550482580@qq.com' }
-  s.source           = { :git => 'https://github.com/a550482560/MineVC.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://m-git.leju.com/subgroup/minevc.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
